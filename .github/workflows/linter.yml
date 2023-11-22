@@ -12,6 +12,6 @@ jobs:
     - name: Install pyLint
       run: pip install pylint
 
-    - name: Running linter.py with custom .pylintrc
+    - name: Running linte.py with custom .pylintrc
       run: python3 linter.py
       continue-on-error: false
